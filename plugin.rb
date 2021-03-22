@@ -1,4 +1,4 @@
-big = (2**(0.size * 8 -2) -1)
+big = 10000000 # Is 10 Million large enough? Discourse complains if it is set too large...
 GlobalSetting.register("max_reqs_per_ip_mode", "none")
 GlobalSetting.register("max_reqs_rate_limit_on_private", big)
 GlobalSetting.register("max_admin_api_reqs_per_key_per_minute", big)
